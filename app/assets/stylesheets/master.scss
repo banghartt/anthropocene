@@ -1,5 +1,23 @@
 @import "bootstrap";
 
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+header {
+    border-top: 9px solid #222222;
+  }
+  hr {
+    clear:both;
+  }
+
 .clear {
   clear: both;
 }
@@ -40,9 +58,10 @@
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
   }
 
-  header {
-    border-top: 9px solid #222222;
+  .next-quote {
+    color:#f84342;
+    font-family:'Cormorant Garamond', serif;
+    font-size: 20px;
   }
-  hr {
-    clear:both;
-  }
+
+  
